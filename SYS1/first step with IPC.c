@@ -1,11 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <errno.h>
-#include <unistd.h>
 #include <sys/types.h>
-#include <sys/wait.h>
-#include <sys/msg.h>
-#include <stddef.h>
+#include <sys/ipc.h>
 int main() {
 key_t cle;
 cle = ftok ("/home/.",'A');
