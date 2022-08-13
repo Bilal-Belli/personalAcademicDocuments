@@ -29,3 +29,5 @@ Pagination
 Notification
 Modal
 Meatballs Menu
+interactive map
+d3 js maps
