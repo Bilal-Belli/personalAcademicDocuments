@@ -32,3 +32,4 @@ Meatballs Menu
 interactive map
 d3 js maps
 Image map
+datatables bootstrap with search and rank and limited rows
