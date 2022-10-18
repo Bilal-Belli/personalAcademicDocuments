@@ -2,7 +2,7 @@ https://careerfoundry.com/en/blog/ui-design/ui-element-glossary/
 ----------------------------------------------------------------
 this article contain most and important elements name need when search about things on the net, and help.
 recaputilation:
----------------
+--------------
 Button
 Card
 Carousel
