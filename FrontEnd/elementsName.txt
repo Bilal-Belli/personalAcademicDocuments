@@ -37,3 +37,4 @@ pop up form models
 toggle kmodels bootstrap
 Note on hover
 m
+gojs diagrams and networks and graphs
