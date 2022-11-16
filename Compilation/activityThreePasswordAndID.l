@@ -5,7 +5,7 @@ IDENTIFICATEUR ([a-z]|[A-Z]|[0-9])+
 
 {MOT_PASSE}  {printf(" [Mot de passe: %s ]\n",yytext);}
 {IDENTIFICATEUR}  {printf(" [Identificateur: %s ]\n",yytext);}
-
+.
 %%
 int yywrap(){
     return 1;
@@ -17,3 +17,4 @@ int main(){
     yylex();
     return 0;
 }
+// le dernier point est utiliser pour ne pas rejeter dans  un fichier en cas d'erreurs
