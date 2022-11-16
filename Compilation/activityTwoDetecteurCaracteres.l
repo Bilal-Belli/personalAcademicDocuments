@@ -4,9 +4,9 @@ INDESIRABLE .
 
 %%
 
-{NOMBRE}  {printf(" [Nombre: %s ]\n",yytext);}
+{NOMBRE}  {printf(" [Nombre: %s , Taille: %d]\n",yytext,strlen(yytext));}
 {MOT}  {printf(" [Mot: %s ]\n",yytext);}
-{INDESIRABLE}  {printf(" [Caractere Indesirable: %s ]\n",yytext);}
+{INDESIRABLE}  {printf(" [Caractere Indesirable: %s , Taille: %d]\n",yytext,strlen(yytext));}
 
 %%
 int yywrap(){
