@@ -1,12 +1,12 @@
 NOMBRE [0-9]+
 MOT (([a-z])|([A-Z]))+
-INDESIRABLE .
+INDESIRABLE [^0-9a-zA-Z]
 
 %%
 
-{NOMBRE}  {printf(" [Nombre: %s , Taille: %d]\n",yytext,strlen(yytext));}
-{MOT}  {printf(" [Mot: %s ]\n",yytext);}
-{INDESIRABLE}  {printf(" [Caractere Indesirable: %s , Taille: %d]\n",yytext,strlen(yytext));}
+{NOMBRE}  {printf(" [Nombre , Taille: %d]\n",yyleng);}
+{MOT}  {printf(" [Mot , Taille: %d]\n",yyleng);}
+{INDESIRABLE}+  {printf(" [Caractere Indesirable , Taille: %d]\n",yyleng);}
 
 %%
 int yywrap(){
@@ -19,3 +19,5 @@ int main(){
     yylex();
     return 0;
 }
+
+// 12b50 !, !suite5698 de symbole ......
