@@ -1,24 +1,13 @@
 
 %%
-"main"  {fprintf(yyout, "(mot-cle, main)");}
-"if"  {fprintf(yyout, "(mot-cle, if)");}
-"else"  {fprintf(yyout, "(mot-cle, else)");}
-"while"  {fprintf(yyout, "(mot-cle, while)");}
-"do"  {fprintf(yyout, "(mot-cle, do)");}
-"switch"  {fprintf(yyout, "(mot-cle, switch)");}
-"of"  {fprintf(yyout, "(mot-cle, of)");}
-"break"  {fprintf(yyout, "(mot-cle, break)");}
+"main"|"if"|"else"|"while"|"do"|"switch"|"of"|"break"  {fprintf(yyout,"(mot-cle, %s)",yytext);}
 
-"<>"  {fprintf(yyout, "(operateur, <>)");}
-"<="  {fprintf(yyout, "(operateur, <=)");}
-">="  {fprintf(yyout, "(operateur, >=)");}
+"<>"|"<="|">="|"+"|"-"  {fprintf(yyout, "(operateur, %s)",yytext);}
 "<"  {fprintf(yyout, "(operateur, <)");}
 "="  {fprintf(yyout, "(operateur, =)");}
 ">"  {fprintf(yyout, "(operateur, >)");}
-"+"  {fprintf(yyout, "(operateur, +)");}
-"-"  {fprintf(yyout, "(operateur, -)");}
 
-([a-z])(0|([a-z]|[A-Z]|[0-9])+)  {fprintf(yyout, "(Identificateur, %s)",yytext);}
+([a-z])(0|([a-zA-Z0-9])+)  {fprintf(yyout, "(Identificateur, %s)",yytext);}
 
 ([0-9]0)|([0-9][0-9]+)  {fprintf(yyout, "(Constantes, %s)",yytext);}
 
