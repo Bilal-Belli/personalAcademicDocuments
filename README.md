@@ -6,7 +6,7 @@
      </p>
 </div>
 <h2 align="left">Topics</h2>
-<div align="center">
+<div align="left">
    <p>Databases (Basics)</p>
    <p>Networking (Basics-Intermediate-Advanced)</p>
    <p>HPC (High Performance Computing)</p>
