@@ -1,0 +1,5 @@
+//Q6: Liste des assurés ayant un seul contrat bloqué
+r<-restrict(contrat,contrat.etat='BLOQUE')
+r1<-agregat(r:pop,assureid,count,id:NB_CONTRAT)
+r2<-restrict(r1,NB_CONTRAT=1)
+r3<-sjoin(assure,r2:lol,assure.id=lol.assureid)

@@ -1,0 +1,12 @@
+library("FactoMineR")
+library("ggplot2")
+library("factoextra")
+library("readxl")
+donnes <- read_excel("C:/Users/Hp/OneDrive/Bureau/Taste_Example.xls")
+res.mca <- MCA(donnes, graph = TRUE)
+print(res.mca)
+eig.val <- get_eigenvalue(res.mca)
+fviz_screeplot (res.mca, addlabels = TRUE, ylim = c (0, 45))
+fviz_mca_biplot (res.mca, repel = TRUE,ggtheme = theme_minimal())
+var <- get_mca_var(res.mca)
+var

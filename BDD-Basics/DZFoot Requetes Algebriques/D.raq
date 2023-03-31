@@ -1,0 +1,22 @@
+//Afficher la liste des équipes ordonnées par ordre décroissant du nombre de
+//points obtenu au championnat (Victoire = 4 pts, Défaite = 0 pts, Nul=1 pt)
+r<-project(match,match_id,teama_id,goals_teama,goals_teamb)
+r1<-restrict(r:poo,poo.goals_teama>poo.goals_teamb)//match gagné a
+r2<-restrict(r:poo,poo.goals_teama=poo.goals_teamb)//match null a
+r3<-project(r1:loo,match_id,teama_id,4)
+r4<-project(r2:loo,match_id,teama_id,1)
+r33<-project(r3:loo,match_id,teama_id,4:points)
+r44<-project(r4:loo,match_id,teama_id,1:points)
+rr<-union(r33,r44)
+zz<-agregat(rr,teama_id:team_id,sum,points:points)
+t<-project(match,match_id,teamb_id,goals_teama,goals_teamb)
+t1<-restrict(t:poo,poo.goals_teama<poo.goals_teamb)//match gagné b
+t2<-restrict(t:poo,poo.goals_teama=poo.goals_teamb)//match null b
+t3<-project(t1:loo,match_id,teamb_id,4)
+t4<-project(t2:loo,match_id,teamb_id,1)
+t33<-project(t3:loo,match_id,teamb_id,4:points)
+t44<-project(t4:loo,match_id,teamb_id,1:points)
+tt<-union(t33,t44)
+yy<-agregat(tt,teamb_id:team_id,sum,points:points)
+bb<-union(yy,zz)
+sommetotal<-agregat(bb,team_id,sum,points:points)

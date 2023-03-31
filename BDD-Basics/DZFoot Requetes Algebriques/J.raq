@@ -1,0 +1,9 @@
+//Quelle est la meilleure attaque ?
+r<-project(match,match_id,teama_id,goals_teama)
+r1<-agregat(r:poo,teama_id,sum,goals_teama:BUTS_ENCAISSES)
+r2<-project(match,match_id,teamb_id,goals_teamb)
+r3<-agregat(r2:poo,teamb_id,sum,goals_teamb:BUTS_ENCAISSES)
+r4<-union(r1:ppp,r3:mmm)
+r5<-agregat(r4:loo,teama_id,sum,BUTS_ENCAISSES:BUTS_ENCAISSES)
+r6<-agregat(r5:loo,max,BUTS_ENCAISSES:BUTS_ENCAISSES)
+r7<-division(r5:loo,r6)

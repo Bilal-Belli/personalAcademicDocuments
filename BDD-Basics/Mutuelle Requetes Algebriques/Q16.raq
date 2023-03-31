@@ -1,0 +1,10 @@
+//Q16: Le montant total des remboursements des actes par assuré
+r1<-join(decompte_prm,contrat,decompte_prm.contratid=contrat.id)
+r2<-agregat(r1:poo,assureid,sum,montant:TOTAL)
+
+//r1<-join(decompte_act,contrat,decompte_act.contratid=contrat.id)
+//r2<-join(decompte_prm,contrat,decompte_prm.contratid=contrat.id)
+//r3<-agregat(r1:poo,assureid,sum,montant:TOTAL)
+//r4<-agregat(r2:roo,assureid,sum,montant:TOTAL)
+//r5<-union(r3,r4)
+//r6<-agregat(r5:noo,assureid,sum,TOTAL:TOTAL_REMBORSSEMENT)

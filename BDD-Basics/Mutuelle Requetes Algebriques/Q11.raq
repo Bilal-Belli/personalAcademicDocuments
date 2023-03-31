@@ -1,0 +1,4 @@
+//Q11: Quel est l'acte qui n'est jamais remboursé
+r<-agregat(ligne_act,acteid,sum,montant:total)
+r1<-restrict(r:pop,pop.total=0)
+r2<-project(r1:mmmlmlmlmlml,acteid)

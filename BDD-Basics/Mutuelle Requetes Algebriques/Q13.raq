@@ -1,0 +1,5 @@
+//Q13: La prime le plus remboursée
+r<-agregat(ligne_prm,primeid,sum,montant:SOMME)
+r1<-agregat(r,max,SOMME:montant)
+r2<-sjoin(r:tyy,r1:moo,tyy.SOMME=moo.montant)
+r3<-project(r2,primeid)

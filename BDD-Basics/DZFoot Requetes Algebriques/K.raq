@@ -1,0 +1,11 @@
+//Qui a gagné la rencontre ALLE entre le MCA et la JSK ?
+r<-project(match,date,teama_id,goals_teama,goals_teamb,teamb_id)
+r1<-restrict(r:poo,(teama_id="MCA" && teamb_id="JSK")||(teama_id="JSK" && teamb_id="MCA"))
+r2<-agregat(r1:loo,min,date:date)
+r3<-division(r1:loo,r2:mmm)
+r4<-project(r3:kkk,teama_id,goals_teama)
+r5<-project(r3:kkk,teamb_id,goals_teamb)
+r6<-union(r4,r5)
+r7<-agregat(r6:klklkl,max,goals_teama:goals_teama)
+r8<-join(r6:klklkl,r7)
+r9<-project(r8,teama_id)

@@ -1,0 +1,8 @@
+//Q3:Liste des assurés n'ayant aucun décompte acte
+r1<- join(contrat,decompte_act,contrat.id=decompte_act.contratid)
+r2<- project(r1,assureid:id)
+r3<- sjoin(assure,r2)
+r4<- difference(assure,r3)
+//r1<- join(project(contrat,id:idcontrat,assureid):re,project(decompte_act,contratid):rf,re.idcontrat=rf.contratid)
+//r2<- sjoin(assure,project(r1,assureid):mm,assure.id=mm.assureid)
+//r3<- difference(assure,r2)

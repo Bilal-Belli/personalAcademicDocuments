@@ -1,0 +1,2 @@
+//Q1:Liste des assurés de sexe féminin âgés de plus de 45 ans
+r1<- restrict(assure,sexe='FEMININ' && age>45)

@@ -1,0 +1,335 @@
+/* INSERT QUERY NO: 1 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+1, 'ADRAR'
+);
+
+/* INSERT QUERY NO: 2 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+2, 'CHLEF'
+);
+
+/* INSERT QUERY NO: 3 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+3, 'LAGHOUAT'
+);
+
+/* INSERT QUERY NO: 4 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+4, 'OUM EL BOUAGHI'
+);
+
+/* INSERT QUERY NO: 5 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+5, ' BATNA '
+);
+
+/* INSERT QUERY NO: 6 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+6, ' BEJAÏA '
+);
+
+/* INSERT QUERY NO: 7 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+7, ' BISKRA'
+);
+
+/* INSERT QUERY NO: 8 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+8, 'BÉCHAR'
+);
+
+/* INSERT QUERY NO: 9 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+9, 'BLIDA'
+);
+
+/* INSERT QUERY NO: 10 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+10, 'BOUIRA'
+);
+
+/* INSERT QUERY NO: 11 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+11, 'TAMANRASSET'
+);
+
+/* INSERT QUERY NO: 12 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+12, 'TEBESSA'
+);
+
+/* INSERT QUERY NO: 13 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+13, 'TLEMCEN'
+);
+
+/* INSERT QUERY NO: 14 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+14, 'TIARET'
+);
+
+/* INSERT QUERY NO: 15 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+15, 'TIZI OUZOU'
+);
+
+/* INSERT QUERY NO: 16 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+16, 'ALGER'
+);
+
+/* INSERT QUERY NO: 17 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+17, 'DJELFA'
+);
+
+/* INSERT QUERY NO: 18 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+18, 'JIJEL'
+);
+
+/* INSERT QUERY NO: 19 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+19, 'SÉTIF'
+);
+
+/* INSERT QUERY NO: 20 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+20, 'SAÏDA'
+);
+
+/* INSERT QUERY NO: 21 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+21, 'SKIKDA'
+);
+
+/* INSERT QUERY NO: 22 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+22, 'SIDI BEL ABBÈS '
+);
+
+/* INSERT QUERY NO: 23 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+23, 'ANNABA '
+);
+
+/* INSERT QUERY NO: 24 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+24, 'GUELMA '
+);
+
+/* INSERT QUERY NO: 25 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+25, 'CONSTANTINE '
+);
+
+/* INSERT QUERY NO: 26 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+26, 'MÉDÉA '
+);
+
+/* INSERT QUERY NO: 27 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+27, 'MOSTAGANEM '
+);
+
+/* INSERT QUERY NO: 28 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+28, 'MSILA '
+);
+
+/* INSERT QUERY NO: 29 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+29, 'MASCARA '
+);
+
+/* INSERT QUERY NO: 30 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+30, 'OUARGLA '
+);
+
+/* INSERT QUERY NO: 31 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+31, 'ORAN '
+);
+
+/* INSERT QUERY NO: 32 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+32, 'EL BAYADH '
+);
+
+/* INSERT QUERY NO: 33 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+33, 'ILLIZI '
+);
+
+/* INSERT QUERY NO: 34 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+34, 'BORDJ BOU ARRERIDJ '
+);
+
+/* INSERT QUERY NO: 35 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+35, 'BOUMERDÈS '
+);
+
+/* INSERT QUERY NO: 36 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+36, 'EL TARF '
+);
+
+/* INSERT QUERY NO: 37 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+37, 'TINDOUF '
+);
+
+/* INSERT QUERY NO: 38 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+38, 'TISSEMSILT '
+);
+
+/* INSERT QUERY NO: 39 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+39, 'EL OUED '
+);
+
+/* INSERT QUERY NO: 40 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+40, 'KHENCHELA '
+);
+
+/* INSERT QUERY NO: 41 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+41, 'SOUK AHRAS '
+);
+
+/* INSERT QUERY NO: 42 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+42, 'TIPAZA '
+);
+
+/* INSERT QUERY NO: 43 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+43, 'MILA '
+);
+
+/* INSERT QUERY NO: 44 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+44, 'AÏN DEFLA '
+);
+
+/* INSERT QUERY NO: 45 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+45, 'NAÂMA '
+);
+
+/* INSERT QUERY NO: 46 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+46, 'AÏN TÉMOUCHENT '
+);
+
+/* INSERT QUERY NO: 47 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+47, 'GHARDAIA'
+);
+
+/* INSERT QUERY NO: 48 */
+INSERT INTO Wilaya(id, Nom)
+VALUES
+(
+48, 'RELIZANE'
+);

@@ -1,0 +1,5 @@
+//Q2:Nombre d'assurés réparti par sexe
+r1<- agregat(assure,sexe,count,id:result)
+
+//Q:Nombre d'assurés réparti par sexe et age
+//r1<- agregat(assure,age,sexe,count,id:result)

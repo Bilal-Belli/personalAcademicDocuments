@@ -1,0 +1,4 @@
+//Q4: Liste des assurés n'ayant aucun décompte prime
+r1<- join(project(contrat,id:idcontrat,assureid):re,project(decompte_prm,contratid):rf,re.idcontrat=rf.contratid)
+r2<- sjoin(assure,project(r1,assureid):mm,assure.id=mm.assureid)
+r3<- difference(assure,r2)

@@ -1,0 +1,4 @@
+//Qui a marqué le but le plus rapide du championnat ?
+r<-agregat(goals,min,minute:minute)
+r1<-join(goals,r:poo)
+r2<-sjoin(player,r1:lll)

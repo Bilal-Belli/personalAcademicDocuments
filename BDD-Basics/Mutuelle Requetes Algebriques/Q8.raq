@@ -1,0 +1,5 @@
+//Q8: Liste des assurés ayant plus d'un contrat actif
+r<-restrict(contrat,contrat.etat='ACTIF')
+r1<-agregat(r:pop,assureid,count,id:NB_CONTRAT_ACTIF)
+r2<-restrict(r1,NB_CONTRAT_ACTIF>1)
+r3<-sjoin(assure,r2:lol,assure.id=lol.assureid)

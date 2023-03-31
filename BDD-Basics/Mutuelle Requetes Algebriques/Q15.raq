@@ -1,0 +1,3 @@
+//Q15: Le montant total des remboursements des actes par assuré
+r<-join(decompte_act,contrat,contrat.id=decompte_act.contratid)
+r<-agregat(r:pop,assureid,sum,montant:total_act)

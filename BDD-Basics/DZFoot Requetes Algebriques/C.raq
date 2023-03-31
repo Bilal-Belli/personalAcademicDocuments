@@ -1,0 +1,2 @@
+//Afficher toutes les rencontres qui ont eu lieu entre le MCA et l’USMA
+r<-restrict(match,(teama_id="MCA" && teamb_id="USMA")||(teama_id="USMA" && teamb_id="MCA"))

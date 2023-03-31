@@ -1,0 +1,6 @@
+//Quel est le meilleur buteur ?
+r1<-join(goals,player)
+r2<-agregat(r1:loo,team_id,player_id,name,count,name:NB_BUTs)
+r3<-agregat(r2:poo,max,NB_BUTs:NB_BUTs)
+r4<-division(r2:poo,r3:mpp)
+

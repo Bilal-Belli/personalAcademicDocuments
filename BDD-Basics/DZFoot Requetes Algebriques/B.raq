@@ -1,0 +1,2 @@
+//Afficher la liste des joueurs de la JSK
+r<-restrict(player,team_id="JSK")

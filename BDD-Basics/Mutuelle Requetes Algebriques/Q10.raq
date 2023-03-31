@@ -1,0 +1,5 @@
+//Q9: Quel est l'acte le moins remboursé
+r<-agregat(ligne_act,acteid,sum,montant:total)
+r1<-agregat(r:pop,min,total:MINIMUM)
+r2<-sjoin(r:piii,r1:lpl,lpl.MINIMUM=piii.total)
+r3<-project(r2:mmmlmlmlmlml,acteid)

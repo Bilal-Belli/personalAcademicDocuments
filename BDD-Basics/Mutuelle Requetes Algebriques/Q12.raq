@@ -1,0 +1,6 @@
+//Q12 : Le nombre de décomptes acte et prime pour chaque assuré
+r1<-join(contrat,decompte_act,contrat.id=decompte_act.contratid)
+r2<-agregat(r1,assureid,count,id:decompte_act_compteur)
+r3<-join(contrat,decompte_prm,contrat.id=decompte_prm.contratid)
+r4<-agregat(r3,assureid,count,id:decompte_prm_compteur)
+r5<-xjoin(r2,r4)

@@ -1,0 +1,12 @@
+//Q5: Liste des assurés ayant plus d'un décompte acte et plus d'un décompte prime
+re<-project(contrat,id:contratid,assureid)
+
+r1<-join(re,project(decompte_act,id,contratid))
+r2<-agregat(r1,assureid,count,contratid:NBR_ACT)
+
+r3<-join(re,project(decompte_prm,id,contratid))
+r4<-agregat(r3,assureid,count,contratid:NBR_PRM)
+
+r5<-join(r4,r2)
+r6<-restrict(r5:resultat,NBR_PRM>1 && NBR_ACT>1)
+r7<-sjoin(assure,r6:poo,assure.id=poo.assureid)

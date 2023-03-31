@@ -1,0 +1,4 @@
+//Q7: Liste des assurés ayant plus de deux contrats
+r1<-agregat(contrat,assureid,count,id:NB_CONTRAT)
+r2<-restrict(r1,NB_CONTRAT>=2)
+r3<-sjoin(assure,r2:lol,assure.id=lol.assureid)
