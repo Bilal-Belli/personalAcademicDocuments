@@ -22,7 +22,7 @@ int main () {
 		}
 		printf( "Process %d got %d\n", rank, value );
  	// } while (value >= 0);
- 	
- 	MPI_Finalize( );
- 	return 0;
+	
+	MPI_Finalize( );
+	return 0;
 }

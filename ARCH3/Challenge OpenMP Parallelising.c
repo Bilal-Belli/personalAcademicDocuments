@@ -1,13 +1,7 @@
-    #include <stdio.h>
-    #include <omp.h>
-    #define N 10
-    /**
-     * @brief Exercise to practice basic parallel loops in OpenMP.
-     * @details The objective is to initialise an array, by setting each array
-     * element to the square of its index. These initialisations must be done in
-     * parallel with multithreading.
-     **/
-    int main(int argc, char* argv[])
+#include <stdio.h>
+#include <omp.h>
+#define N 10
+int main(int argc, char* argv[])
     {
     int a[N];
     int i;
@@ -25,5 +19,5 @@
                     printf("a[%d] = %d\n",i,a[i]);
                 }
     }
-        return 0;
-    }
+    return 0;
+}
